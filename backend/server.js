@@ -1,9 +1,9 @@
 const express = require("express");
-const connectDB =require("./back-end/config/connectDB");
+const connectDB =require("./config/connectDB");
 //secound method of Mongo_DB
 const mongoose = require("mongoose");
-const Task = require("./back-end/models/taskModel");
-const taskRoutes = require("./back-end/routes/taskRoutes");
+const Task = require("./models/taskModel");
+const taskRoutes = require("./routes/taskRoutes");
 const { request } = require("express");
 const cors = require("cors");
 

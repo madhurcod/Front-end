@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node back-end/server.js",
-    "backend": "nodemon back-end/server.js",
+    "start": "node backend/server.js",
+    "backend": "nodemon backend/server.js",
     "frontend": "npm start --prefix frontend"
   },
   "keywords": [],
